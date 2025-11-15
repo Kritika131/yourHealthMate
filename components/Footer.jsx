@@ -24,7 +24,7 @@ const Footer = () => {
 
   return (
     <>
-      <footer className="relative bg-gradient-to-br bottom-0  from-slate-900 via-blue-900 to-indigo-900 text-white overflow-hidden">
+      <footer className="relative bg-gradient-to-br bottom-0  from-slate-900 via-emerald-950 to-emerald-900 text-white overflow-hidden ">
         {/* Animated Background Elements */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-10 left-10 w-20 h-20 bg-blue-400 rounded-full animate-pulse"></div>
@@ -104,7 +104,7 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div className={`flex flex-wrap justify-center gap-8 mb-8 transition-all duration-1000 ${
+          {/* <div className={`flex flex-wrap justify-center gap-8 mb-8 transition-all duration-1000 ${
             isVisible ? 'translate-y-0 opacity-100' : 'translate-y-5 opacity-0'
           }`} style={{transitionDelay: '0.8s'}}>
             {['About', 'Services', 'Privacy', 'Terms', 'Support'].map((link, index) => (
@@ -117,7 +117,7 @@ const Footer = () => {
                 {link}
               </a>
             ))}
-          </div>
+          </div> */}
 
           {/* Bottom Section */}
           <div className={`border-t border-white/20 pt-8 text-center transition-all duration-1000 ${
